@@ -1,0 +1,38 @@
+# Build directories
+build/
+install/
+log/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# ROS 2 specific files
+*.egg-info/
+*.so
+*.dSYM/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+
+# VS Code files
+.vscode/
+*.code-workspace
+
+# IDE files
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Miscellaneous
+*.DS_Store
+*.userprefs
