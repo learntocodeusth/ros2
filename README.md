@@ -29,3 +29,9 @@ Before you begin, ensure you have the following:
    ```bash
    git clone https://github.com/learntocodeusth/ros2.git
    cd ros2
+   colcon build
+   source install/setup.bash
+
+   '''bash
+   colcon build --packages-select pkg_helloworld_py
+   source install/setup.bash
