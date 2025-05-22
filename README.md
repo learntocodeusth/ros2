@@ -7,11 +7,6 @@ Welcome to the ROS 2 tutorial repository for Huazhong University of Science and 
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Branches Overview](#branches-overview)
-- [Basic Commands](#basic-commands)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
