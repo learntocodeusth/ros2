@@ -34,7 +34,7 @@ Before you begin, ensure you have the following:
    ```bash
    colcon build
    source install/setup.bash
-
+4. **Build the code with a specific package**:
    ```bash
    colcon build --packages-select pkg_helloworld_py
    source install/setup.bash
