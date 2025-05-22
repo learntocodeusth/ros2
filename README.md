@@ -1,4 +1,4 @@
-# ROS 2 Tutorial for HUST
+# ROS 2 Tutorial for USTH
 
 Welcome to the ROS 2 tutorial repository for University of Science and Technology of Hanoi (USTH) and MEG. This guide will help you get started with ROS 2 and provide you with essential resources and examples.
 
