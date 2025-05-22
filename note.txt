@@ -1,0 +1,50 @@
+1. Hello world run
+ros2 run pkg_helloworld_py helloworld
+
+2. ROS2 topic communication publisher
+ros2 run pkg_topic publisher_demo
+ros2 topic list
+ros2 topic echo /topic_demo
+
+
+3. ROS2 topic communication subscriber
+ros2 run pkg_topic publisher_demo
+ros2 run pkg_topic subscriber_demo
+
+3.ROS2 service 
+ros2 interface show example_interfaces/srv/AddTwoInts
+
+ros2 run pkg_service server_demo
+ros2 service list
+ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{a: 1,b: 4}"
+
+
+4. ROS2 action 
+ros2 interface show pkg_interfaces/action/Progress
+
+ros2 run pkg_action action_server_demo
+ros2 action list
+ros2 action send_goal /get_sum pkg_interfaces/action/Progress num:\ 10
+
+5. ROS2 parameter service 
+Turtle sim need to be installed
+sudo apt install ros-humble/jazzy-turtlesim
+
+ros2 run turtlesim turtlesim_node
+
+ros2 run turtlesim turtle_teleop_key
+
+ros2 param list
+ros2 param describe turtlesim background_b   # View the description information of a parameter
+
+ros2 param get turtlesim background_b        # Query the value of a certain parameter
+
+ros2 param set turtlesim background_b 10     # Modify the value of a certain parameter
+
+
+--------------
+For parameters -own
+ros2 run pkg_param param_demo
+ros2 param set param_declare robot_name robot
+
+
