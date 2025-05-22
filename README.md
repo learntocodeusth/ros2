@@ -1,6 +1,6 @@
 # ROS 2 Tutorial for HUST
 
-Welcome to the ROS 2 tutorial repository for Hanoi University of Science and Technology (HUST). This guide will help you get started with ROS 2 and provide you with essential resources and examples.
+Welcome to the ROS 2 tutorial repository for University of Science and Technology of Hanoi (USTH). This guide will help you get started with ROS 2 and provide you with essential resources and examples.
 
 ## Table of Contents
 
