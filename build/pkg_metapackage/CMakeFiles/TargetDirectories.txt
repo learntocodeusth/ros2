@@ -1,9 +1,0 @@
-/home/atelab/temp/ros2_basic_tut/build/pkg_metapackage/CMakeFiles/uninstall.dir
-/home/atelab/temp/ros2_basic_tut/build/pkg_metapackage/CMakeFiles/pkg_metapackage_uninstall.dir
-/home/atelab/temp/ros2_basic_tut/build/pkg_metapackage/CMakeFiles/test.dir
-/home/atelab/temp/ros2_basic_tut/build/pkg_metapackage/CMakeFiles/edit_cache.dir
-/home/atelab/temp/ros2_basic_tut/build/pkg_metapackage/CMakeFiles/rebuild_cache.dir
-/home/atelab/temp/ros2_basic_tut/build/pkg_metapackage/CMakeFiles/list_install_components.dir
-/home/atelab/temp/ros2_basic_tut/build/pkg_metapackage/CMakeFiles/install.dir
-/home/atelab/temp/ros2_basic_tut/build/pkg_metapackage/CMakeFiles/install/local.dir
-/home/atelab/temp/ros2_basic_tut/build/pkg_metapackage/CMakeFiles/install/strip.dir
