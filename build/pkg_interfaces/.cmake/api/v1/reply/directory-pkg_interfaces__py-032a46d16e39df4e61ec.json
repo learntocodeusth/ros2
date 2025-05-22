@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pkg_interfaces__py",
+		"source" : "/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/pkg_interfaces__py"
+	}
+}

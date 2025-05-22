@@ -1,0 +1,57 @@
+{
+  "package_name": "pkg_interfaces",
+  "output_dir": "/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/rosidl_adapter/pkg_interfaces:action/Progress.idl",
+    "/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/rosidl_adapter/pkg_interfaces:msg/Person.idl",
+    "/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/rosidl_adapter/pkg_interfaces:srv/Add.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/python3.12/site-packages/rosidl_generator_cpp/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/action__type_support.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/idl__type_support.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/msg__type_support.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
+    "/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/action/Progress.idl",
+    "/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/msg/Person.idl",
+    "/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/srv/Add.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "type_description_tuples": [
+    "action/Progress.idl:/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/rosidl_generator_type_description/pkg_interfaces/action/Progress.json",
+    "msg/Person.idl:/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/rosidl_generator_type_description/pkg_interfaces/msg/Person.json",
+    "srv/Add.idl:/home/atelab/temp/ros2_basic_tut/build/pkg_interfaces/rosidl_generator_type_description/pkg_interfaces/srv/Add.json"
+  ]
+}

@@ -1,0 +1,41 @@
+[0.711s] Invoking command in '/home/atelab/temp/ros2_basic_tut/src/pkg_action': AMENT_PREFIX_PATH=/home/atelab/temp/ros2_basic_tut/install/pkg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atelab/temp/ros2_basic_tut/install/pkg_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/atelab/temp/ros2_basic_tut/install/pkg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atelab/temp/ros2_basic_tut/build/pkg_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/python3.12/site-packages:/home/atelab/temp/ros2_basic_tut/install/pkg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_action build --build-base /home/atelab/temp/ros2_basic_tut/build/pkg_action/build install --record /home/atelab/temp/ros2_basic_tut/build/pkg_action/install.log --single-version-externally-managed install_data
+[0.932s] running egg_info
+[0.932s] creating ../../build/pkg_action/pkg_action.egg-info
+[0.947s] writing ../../build/pkg_action/pkg_action.egg-info/PKG-INFO
+[0.948s] writing dependency_links to ../../build/pkg_action/pkg_action.egg-info/dependency_links.txt
+[0.948s] writing entry points to ../../build/pkg_action/pkg_action.egg-info/entry_points.txt
+[0.948s] writing requirements to ../../build/pkg_action/pkg_action.egg-info/requires.txt
+[0.948s] writing top-level names to ../../build/pkg_action/pkg_action.egg-info/top_level.txt
+[0.948s] writing manifest file '../../build/pkg_action/pkg_action.egg-info/SOURCES.txt'
+[0.979s] reading manifest file '../../build/pkg_action/pkg_action.egg-info/SOURCES.txt'
+[0.980s] writing manifest file '../../build/pkg_action/pkg_action.egg-info/SOURCES.txt'
+[0.980s] running build
+[0.980s] running build_py
+[0.980s] creating /home/atelab/temp/ros2_basic_tut/build/pkg_action/build
+[0.980s] creating /home/atelab/temp/ros2_basic_tut/build/pkg_action/build/lib
+[0.980s] creating /home/atelab/temp/ros2_basic_tut/build/pkg_action/build/lib/pkg_action
+[0.980s] copying pkg_action/action_server_demo.py -> /home/atelab/temp/ros2_basic_tut/build/pkg_action/build/lib/pkg_action
+[0.980s] copying pkg_action/action_client_demo.py -> /home/atelab/temp/ros2_basic_tut/build/pkg_action/build/lib/pkg_action
+[0.980s] copying pkg_action/__init__.py -> /home/atelab/temp/ros2_basic_tut/build/pkg_action/build/lib/pkg_action
+[0.980s] running install
+[0.986s] running install_lib
+[1.001s] creating /home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/python3.12/site-packages/pkg_action
+[1.001s] copying /home/atelab/temp/ros2_basic_tut/build/pkg_action/build/lib/pkg_action/action_server_demo.py -> /home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/python3.12/site-packages/pkg_action
+[1.002s] copying /home/atelab/temp/ros2_basic_tut/build/pkg_action/build/lib/pkg_action/action_client_demo.py -> /home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/python3.12/site-packages/pkg_action
+[1.002s] copying /home/atelab/temp/ros2_basic_tut/build/pkg_action/build/lib/pkg_action/__init__.py -> /home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/python3.12/site-packages/pkg_action
+[1.002s] byte-compiling /home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/python3.12/site-packages/pkg_action/action_server_demo.py to action_server_demo.cpython-312.pyc
+[1.002s] byte-compiling /home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/python3.12/site-packages/pkg_action/action_client_demo.py to action_client_demo.cpython-312.pyc
+[1.003s] byte-compiling /home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/python3.12/site-packages/pkg_action/__init__.py to __init__.cpython-312.pyc
+[1.003s] running install_data
+[1.003s] creating /home/atelab/temp/ros2_basic_tut/install/pkg_action/share/ament_index
+[1.003s] creating /home/atelab/temp/ros2_basic_tut/install/pkg_action/share/ament_index/resource_index
+[1.003s] creating /home/atelab/temp/ros2_basic_tut/install/pkg_action/share/ament_index/resource_index/packages
+[1.004s] copying resource/pkg_action -> /home/atelab/temp/ros2_basic_tut/install/pkg_action/share/ament_index/resource_index/packages
+[1.004s] copying package.xml -> /home/atelab/temp/ros2_basic_tut/install/pkg_action/share/pkg_action
+[1.004s] running install_egg_info
+[1.024s] Copying ../../build/pkg_action/pkg_action.egg-info to /home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/python3.12/site-packages/pkg_action-0.0.0-py3.12.egg-info
+[1.025s] running install_scripts
+[1.134s] Installing action_client_demo script to /home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/pkg_action
+[1.134s] Installing action_server_demo script to /home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/pkg_action
+[1.135s] writing list of installed files to '/home/atelab/temp/ros2_basic_tut/build/pkg_action/install.log'
+[1.161s] Invoked command in '/home/atelab/temp/ros2_basic_tut/src/pkg_action' returned '0': AMENT_PREFIX_PATH=/home/atelab/temp/ros2_basic_tut/install/pkg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atelab/temp/ros2_basic_tut/install/pkg_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/atelab/temp/ros2_basic_tut/install/pkg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atelab/temp/ros2_basic_tut/build/pkg_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atelab/temp/ros2_basic_tut/install/pkg_action/lib/python3.12/site-packages:/home/atelab/temp/ros2_basic_tut/install/pkg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_action build --build-base /home/atelab/temp/ros2_basic_tut/build/pkg_action/build install --record /home/atelab/temp/ros2_basic_tut/build/pkg_action/install.log --single-version-externally-managed install_data

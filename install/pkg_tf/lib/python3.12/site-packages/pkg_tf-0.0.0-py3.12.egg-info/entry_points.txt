@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_following = pkg_tf.turtle_following:main
+turtle_tf_broadcaster = pkg_tf.turtle_tf_broadcaster:main
